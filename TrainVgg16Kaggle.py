@@ -94,4 +94,3 @@ if __name__ == "__main__":
                         nb_epoch=15,
                         verbose=1, callbacks=[mcp],
                         validation_data=(Xval,yval[:,0]))
-    print np.argmax(out)
